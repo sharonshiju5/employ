@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employ</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-div"><p>employee details</p></div>
+        <div class="nav-div">
+            <div class="navs">
+                <img src="./assets/not.png" class="not" alt="">
+            </div>
+            <div class="navs">
+                <h3>sharon</h3><div class="person-img"><img src="./assets/1.jpg" alt=""></div>
+                <!-- <h6>department</h6> -->
+            </div>
+            <hr>
+            <div class="navs">
+                <a href="./pages/login.html"><h4>Log out</h4></a>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <hr class="hr">
+        <div class="div">
+            <button onclick="displayTable()" id="tb-btn1">TABLE</button>
+            <button onclick="displayCard()" id="tb-btn2">CARD</button>
+            <input type="text" placeholder="search...">
+            <a href="./pages/add.html"><div class="add">+ add new employee </div></a>
+        </div>
+        <div class="container" id="container">
+            <div class="table">
+            <table id="table" >
+                <thead >
+                    <th class="th">id</th>
+                    <th>name</th>
+                    <th>department</th>
+                    <th>position</th>
+                    <th>e-mail</th>
+                    <th>salary</th>
+                    <th>phone</th>
+                    <th>experiance</th>
+                    <th class="lth"></th>
+                    <th class="btn"></th>
+                </thead>
+                <tbody id="display">
+                    <!-- <tr>
+                        <td>dsdskm</td>
+                        <td>dsdskm</td>
+                        <td>dsdskm</td>
+                        <td>dsdskm</td>
+                        <td>dsdskm</td>
+                        <td>dsdskm</td>
+                        <td>dsdskm</td>
+                        <td>dsdskm</td>
+                        <td><img src="./assets/1.jpg" class="table-img" alt=""></td>
+                        <td class="btn">
+                            <a href="./pages/edit.html"><button class="edit" id="btm1">edit</button></a>
+                            <button class="del" id="btn2">delete</button>
+                        </td>
+                    </tr>  -->
+                </tbody>
+            </table>
+        </div>
+            <div id="card">
+                <div class="section2" id="display2">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/2.jpg" alt=""> 
+                        </div>
+                        <div class="card-info">
+                            <div class="info">
+                                <h4>id:</h4>
+                            </div>
+                            <div class="info">
+                                <h4 id=""> 891</h4>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <div class="info">
+                                <h4>phone:</h4>
+                            </div>
+                            <div class="info">
+                                <h4 id=""> shaaa</h4>
+                            </div>
+                        </div><div class="card-info">
+                            <div class="info">
+                                <h4>department:</h4>
+                            </div>
+                            <div class="info">
+                                <h4 id=""> shaaa</h4>
+                            </div>
+                        </div><div class="card-info">
+                            <div class="info">
+                                <h4>salary:</h4>
+                            </div>
+                            <div class="info">
+                                <h4 id=""> shaaa</h4>
+                            </div>
+                        </div><div class="card-info">
+                            <div class="info">
+                                <h4>position:</h4>
+                            </div>
+                            <div class="info">
+                                <h4 id=""> shaaa</h4>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <div class="info">
+                                <h4>e- mail:</h4>
+                            </div>
+                            <div class="info">
+                                <h4 id=""> shaaa</h4>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <div class="info" id="btns">
+                                <a href="./pages/edit.html"><button id="btn1">edit</button></a>
+                            <!-- </div>
+                            <div class="info"> -->
+                                <button id="btn2">delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

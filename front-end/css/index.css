@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.664);
+    /* display: flex;
+    flex-wrap:wrap ; */
+    /* background-image: url('https://img.freepik.com/free-vector/law-firm-concept-illustration_114360-8586.jpg?t=st=1733809009~exp=1733812609~hmac=393a8990567efd600ca8d0979812dff7f360b6d94fb80606b38ec781f69f20d7&w=996'); */
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-color: #7983e16e;
+
+}
+.nav{
+    margin: 0;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.nav-div{
+    width: 20%;
+    height: 100%;
+    margin-right: 50px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.nav-div p{
+    font-size: 24px;
+    margin-top: 30px;
+    color: rgb(0, 123, 255);
+}
+.navs{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+.not{
+    margin-left: 40px;
+    height: 20%;
+}
+.person-img{
+    border-radius: 100%;
+    margin-left: 15px;
+    height: 60%;
+    background-color: blanchedalmond;
+}
+.person-img img{
+    border-radius: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+}
+.nav-div hr{
+    height: 25px;
+    margin: -30px;
+    color: black;
+}
+.navs h4{
+    color: #f84464;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.hr{
+    margin-top: 10px;
+    position: fixed;
+    top: 60px;
+    width: 92%;
+    z-index: 1000;
+}
+.section{
+    width: 93%;
+    margin: auto;
+    /* background-color: bisque    ; */
+    /* margin-top: 70px; */
+    padding-top: 70px;
+}
+.div{
+    margin-top: 0px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    margin-left: -125px;
+    padding-right: 75px;
+    background-color: white;
+    z-index: 2;
+
+}
+#tb-btn1{
+    height: 30px;
+    width: 70px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #2d85d1;
+    color: white;
+
+}
+#tb-btn2{
+    height: 30px;
+    width: 70px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    margin-right: 20px;
+    background-color: #ef9d21;
+    color: white;
+}
+.div input{
+    height: 30px;
+    width: 20%;
+    padding-left: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-image: url('../assets/search_24dp_434343_FILL0_wght400_GRAD0_opsz24.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left ;
+}
+.add{
+    margin-left: 15px;
+    /* width: 10%; */
+    height: 20px;
+    background-color: #f84464;
+    padding:10px 20px;
+    color:white;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin-top: 100px;
+    width: 100%;
+    /* background-color: blue; */
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+}
+table{
+    text-align: center;
+    width: 100%;
+    background-color: #f6eff161;
+    border-radius:10px 10px 10px 10px;
+    border-collapse: collapse;
+    
+    /* background-color: #f84464; */
+}
+.table{
+    width: 100%;
+
+}
+thead{
+    width: 100%;
+}
+th{
+    /* border-radius:100%; */
+    height: 50px;
+    background-color: rgba(41, 40, 40, 0.395);
+}
+.th{
+    border-radius: 5px 0px 0px;
+}
+.lth{
+    border-radius: 0px 5px 5px 0px;
+}
+.table-img{
+    height: 60px;
+    border-radius: 100%;
+}
+.btn{
+    /* margin-left: 10px; */
+    margin-right: 0;
+    /* width: 50px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.btn button{
+    height: 30px;
+    margin: 3px 0px;
+    width: 60px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.edit{
+    background-color: #04AA6D;
+}
+.del{
+    background-color: #f4768d;
+}
+table{
+    /* display: none; */
+}
+#card{
+    display: none;
+    position: absolute;
+    top: 135px;
+    z-index: 0;
+    width: 93%;
+    padding-bottom: 40px;
+    background-color: rgba(90, 177, 214, 0.974);
+}
+.section2{
+    width: 100%;
+    height: 100%;
+    /* background-color: #04AA6D; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    gap: 35px;
+}
+.card{
+    width: 326px;
+    height: 500px;
+    background-color: #c9c5d9a0;
+    border-radius: 15px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.card-img{
+    height: 100px;
+    width: 100%;
+    /* background-color: #044ca a; */
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.card img{
+    height: 100%;
+    border-radius: 50px;
+}
+.card-info{
+width: 100%;
+height: 50px;
+/* background-color: chocolate; */
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+padding-left: 10px;
+}
+.info{
+    width: 50%;
+    height: 100%;
+}
+#btns{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    align-items: center;
+    
+}
+#btns button{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+#btn1{
+    background-color: #04AA6D;
+}
+#btn2{
+    background-color: #f84464;
+}
